@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Gotham Light";
+    src: url(gotham-light.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Gotham Light";
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 238);
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    line-height: 36px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.addresses {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.addresses a {
+    color: #000;
+}
+
+.addresses a:hover {
+    color: rgb(0, 0, 238);
+}
+
+.addresses .address {
+    padding: 0 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+    width: 100%;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    html, body {
+        width: auto;
+    }
+
+    body {
+        font-size: 36px;
+    }
+
+    p {
+        line-height: 64px;
+    }
+
+    .container {
+        padding-top: 75px;
+        justify-content: flex-start;
+        height: auto;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+    }
+
+    .addresses {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .addresses .address {
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .footer {
+        position: static;
+        font-size: 20px;
+    }
+}
