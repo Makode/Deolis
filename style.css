@@ -16,7 +16,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: rgb(74, 102, 160);
+    color: #4a66a0;
 }
 
 a:hover {
@@ -38,7 +38,7 @@ p {
 }
 
 .logo {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .addresses {
@@ -52,7 +52,7 @@ p {
 }
 
 .addresses a:hover {
-    color: rgb(0, 0, 238);
+    color: #4a66a0;
 }
 
 .addresses .address {
@@ -75,6 +75,13 @@ p {
     font-size: 10px;
     color: #ccc;
     width: 100%;
+}
+
+.underTitle {
+
+    color: #4a66a0;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 @media only screen
